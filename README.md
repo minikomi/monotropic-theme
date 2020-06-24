@@ -1,4 +1,11 @@
-# Monotropic color theme for Emacs
+# Almost Monotropic color theme for Emacs
+
+Monotropic theme with a tiny bit more color added. 
+
+-----
+
+## Based on :
+
 
 (Almost) monochromatic theme for emacs. Originally based on [maio/eink-emacs](https://github.com/maio/eink-emacs). 
 
