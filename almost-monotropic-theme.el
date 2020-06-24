@@ -16,8 +16,8 @@
 
 ;;; Code:
 
-(deftheme monotropic
-  "Monotropic -- relating to or exhibiting monotropy. Based on https://github.com/maio/eink-emacs")
+(deftheme almost-monotropic
+  "Based on Monotropic -- relating to or exhibiting monotropy. Based on https://github.com/maio/eink-emacs")
 
 (let ((fg "#111111")
       (bg "#fffffa")
@@ -28,7 +28,7 @@
       (bg-highlight-3 "#faf0fc"))
 
   (custom-theme-set-faces
-   'monotropic
+   'almost-monotropic
 
    ;; generic stuff
    `(default ((t (:background ,bg :foreground ,fg))))
@@ -47,10 +47,10 @@
    `(font-lock-constant-face ((t (:foreground ,fg))))
    `(font-lock-doc-face ((t (:foreground ,fg))))
    `(font-lock-function-name-face ((t (:foreground ,fg))))
-   `(font-lock-keyword-face ((t (:foreground ,fg))))
+   `(font-lock-keyword-face ((t (:foreground "#2277aa"))))
    `(font-lock-preprocessor-face ((t (:foreground ,fg))))
    `(font-lock-reference-face ((t (:foreground ,fg))))
-   `(font-lock-string-face ((t (:foreground ,fg))))
+   `(font-lock-string-face ((t (:foreground "#662222"))))
    `(font-lock-type-face ((t (:foreground ,fg))))
    `(font-lock-variable-name-face ((t (:foreground ,fg :underline nil))))
    `(font-lock-warning-face ((t (:foreground ,fg :weight bold))))
@@ -261,6 +261,5 @@
    'custom-theme-load-path
    (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'monotropic)
-;;; monotropic-theme.el ends here
-
+(provide-theme 'almost-monotropic)
+;;; almost-monotropic-theme.el ends here
