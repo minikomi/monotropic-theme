@@ -1,14 +1,14 @@
-;;; monotropic-theme.el --- Monotropic Theme
+;;; almost-monotropic-theme.el --- Almost-Monotropic Theme
 
 ;; Copyright 2018-present, all rights reserved.
 ;;
 ;; Code licensed under MIT licence.
 
-;; Author: caffo
+;; Author: caffo Edits: minikomi
 ;; Version: 0.1
 ;; Package-Version: 0
 ;; Package-Requires: ((emacs "24"))
-;; URL: https://github.com/caffo/monotropic-theme
+;; URL: https://github.com/caffo/almost-monotropic-theme
 
 ;;; Commentary:
 
@@ -17,7 +17,7 @@
 ;;; Code:
 
 (deftheme almost-monotropic
-  "Based on Monotropic -- relating to or exhibiting monotropy. Based on https://github.com/maio/eink-emacs")
+  "Almost-Monotropic -- relating to or exhibiting monotropy. Based on https://github.com/maio/eink-emacs")
 
 (let ((fg "#111111")
       (bg "#fffffa")
@@ -41,7 +41,8 @@
    `(font-latex-match-reference-keywords ((t (:foreground ,fg))))
    `(font-latex-match-variable-keywords ((t (:foreground ,fg))))
    `(font-latex-string-face ((t (:foreground "#a9a9a9"))))
-   `(font-lock-builtin-face ((t (:background ,bg :foreground ,fg))))
+   `(font-lock-builtin-face ((t (:background "#f5f5ea" :foreground "#359"))))
+
    `(font-lock-comment-delimiter-face ((t (:foreground ,fg-light :weight normal))))
    `(font-lock-comment-face ((t (:foreground ,fg-light  :slant italic :weight normal ))))
    `(font-lock-constant-face ((t (:foreground ,fg))))
@@ -99,6 +100,9 @@
    `(slime-repl-inputed-output-face ((t (:foreground ,fg))))
    `(whitespace-line ((t (:background ,bg-highlight-2 :foreground ,fg))))
 
+   ;; clojure
+   `(clojure-keyword-face ((t (:background "#f5f5ea" :foreground "#359"))))
+   
    ;; magit
    `(magit-header ((t (:weight bold))))
    `(magit-item-mark ((t (:background ,bg-highlight))))
