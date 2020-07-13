@@ -1,4 +1,4 @@
-;;; almost-monotropic-theme.el --- Almost-Monotropic Theme
+;; almost-monotropic-theme.el --- Almost-Monotropic Theme
 
 ;; Copyright 2018-present, all rights reserved.
 ;;
@@ -31,7 +31,7 @@
    'almost-monotropic
 
    ;; generic stuff
-   `(default ((t (:background ,bg :foreground ,fg))))
+   `(default ((t (:background ,bg :foreground ,fg :height 1))))
    `(button ((t (:foreground ,fg :underline t))))
    `(cursor ((t (:background ,fg :foreground "white smoke"))))
    `(custom-variable-tag ((t (:foreground ,fg :weight bold))))
@@ -67,18 +67,18 @@
    `(isearch ((t (:background "#eeeee8" :foreground ,fg))))
    `(link ((t (:foreground ,fg))))
    `(minibuffer-prompt ((t (:foreground ,fg :weight bold))))
-   `(mode-line ((t (:background ,bg-light :foreground ,fg :height 1.1 ))))
+   `(mode-line ((t (:background ,bg-light :foreground ,fg :height 1 ))))
    `(mode-line-buffer ((t (:foreground ,fg :weight bold))))
    `(mode-line-inactive ((t (:background ,bg-light :foreground ,bg-light))))
    `(mode-line-minor-mode ((t (:weight ultra-light))))
-   `(modeline ((t (:background ,bg :foreground ,fg :height 1.4))))
-   `(org-agenda-date ((t (:foreground ,fg :height 1.2))))
-   `(org-agenda-date-today ((t (:foreground ,fg :weight bold :height 1.4))))
+   `(modeline ((t (:background ,bg :foreground ,fg :height 1))))
+   `(org-agenda-date ((t (:foreground ,fg :height 1))))
+   `(org-agenda-date-today ((t (:foreground ,fg :weight bold :height 1))))
    `(org-agenda-date-weekend ((t (:foreground ,fg :weight normal))))
    `(org-agenda-structure ((t (:foreground ,fg :weight bold))))
-   `(org-block ((t (:foreground ,fg))))
-   `(org-block-begin-line ((t (:foreground ,fg-light))))
-   `(org-block-end-line ((t (:foreground ,fg-light))))
+   `(org-block ((t (:foreground ,fg :height 1))))
+   `(org-block-begin-line ((t (:foreground ,fg-light :height 1))))
+   `(org-block-end-line ((t (:foreground ,fg-light :height 1))))
    `(org-date ((t (:foreground ,fg) :underline)))
    `(org-done ((t (:foreground ,fg-light))))
    `(org-hide ((t (:foreground ,bg))))
@@ -107,7 +107,7 @@
    `(magit-header ((t (:weight bold))))
    `(magit-item-mark ((t (:background ,bg-highlight))))
    `(magit-item-highlight ((t (:weight bold))))
-   `(magit-section-heading ((t (:weight bold :height 1.2))))
+   `(magit-section-heading ((t (:weight bold :height 1))))
    `(magit-section-highlight ((t (:inherit nil :weight bold))))
    `(magit-diff-context-highlight ((t (:weight bold))))
    `(magit-branch-local ((t (:weight bold))))
