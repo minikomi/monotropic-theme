@@ -132,10 +132,10 @@
 
    ;; dired
    `(dired-directory ((t (:weight bold))))
-   `(dired-subtree-depth-1-face ((t (:foreground ,fg))))
-   `(dired-subtree-depth-2-face ((t (:foreground ,fg))))
-   `(dired-subtree-depth-3-face ((t (:foreground ,fg))))
-   `(dired-subtree-depth-4-face ((t (:foreground ,fg))))
+   `(dired-subtree-depth-1-face ((t nil)))
+   `(dired-subtree-depth-2-face ((t nil)))
+   `(dired-subtree-depth-3-face ((t nil)))
+   `(dired-subtree-depth-4-face ((t nil)))
 
    ;; helm
    `(helm-source-header ((t (:foreground ,fg :background "grey90" :weight bold))))
