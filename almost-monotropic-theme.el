@@ -19,7 +19,7 @@
 (deftheme almost-monotropic
   "Almost-Monotropic -- relating to or exhibiting monotropy. Based on https://github.com/maio/eink-emacs")
 
-(let ((fg "#ff1111")
+(let ((fg "#111111")
       (bg "#fffffa")
       (bg-light "#ddddda")
       (fg-light "#808080")
